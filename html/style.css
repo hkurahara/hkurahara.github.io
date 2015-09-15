@@ -1,0 +1,21 @@
+h2 {
+  color:rgb(238, 139, 17);
+    font-size: 100%;
+}
+
+body{
+  background-image: https://www.google.co.jp/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCO2yxPWO58cCFaQVpgodCecOyA&url=http%3A%2F%2Fwww.tj-matsuyama.com%2F%3Fcat%3D173&psig=AFQjCNE4jt3H_LNJVILLAowIvA0f4mtvXw&ust=1441790478928800("./background.jpg");
+}
+
+#content {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+}
+
+section {
+  -webkit-flex: 1 0 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
